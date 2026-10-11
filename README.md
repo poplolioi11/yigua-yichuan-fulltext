@@ -1,8 +1,8 @@
 # 《伊川易傳》文淵閣四庫全書本：全書影像初錄
 
-整理署名：**一卦 yigua.art / [poplolioi11](https://github.com/poplolioi11)**。資料版本 **0.1.0**；首次發行日期 **2026-10-11**。固定版本見 [v0.1.0](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)。
+整理署名：**一卦 yigua.art / [poplolioi11](https://github.com/poplolioi11)**。發行包版本 **0.2.0**，語料初錄版 **0.1.0**；首次發行日期 **2026-10-11**。原始 JSON／TXT 固定版本見 [v0.1.0](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)，本輪只增加 TEI 編碼與封存中繼資料，未改古籍文字。
 
-> 掃描頁 160–405，共 246 頁已完成影像初錄；**全部尚未獨立覆核，不是學術定本**。「完整」指指定範圍逐頁初錄完成，不保證每個印字均已辨認。疑字與方法保留於逐頁紀錄。沒有公布逐字準確率、DOI、TEI XML 或同儕審查結果。
+> 掃描頁 160–405，共 246 頁已完成影像初錄；**全部尚未獨立覆核，不是學術定本**。「完整」指指定範圍逐頁初錄完成，不保證每個印字均已辨認。疑字與方法保留於逐頁紀錄。TEI schema 驗證與 DOI 不是逐字正確性或同儕審查認證。
 
 既有署名「yigua.art網站轉譯」指影像轉錄與資料整理，**不是把古文翻成現代語言**。歷史作者是程頤，資料整理者不取代原作者。
 
@@ -22,6 +22,7 @@
 
 - [全書 TXT](exports/yichuan-fulltext.txt)：可直接閱讀，含本站新增的頁、半葉、欄定位標籤，非原書句讀。
 - [全書 JSON](exports/yichuan-fulltext.json)：保留文字、疑字候選、圖記、副文本、來源影像與處理方法。
+- [TEI P5 XML](tei/yichuan-fulltext.tei.xml)：按掃描頁、半葉與欄編碼，保留疑字及完整來源快照；[編碼與再現說明](tei/README-TEI.md)。不是另做校定的版本。
 - [SHA256SUMS](exports/SHA256SUMS)：兩份資料檔的校驗值。
 - [CITATION.cff](CITATION.cff)：機器可讀引用資訊；GitHub 可產生引用格式，**不會自動追蹤下載或引用**。
 - [LICENSE.md](LICENSE.md) 與 [CONTRIBUTING.md](CONTRIBUTING.md)：分層授權、訂正與共同維護。
@@ -64,7 +65,7 @@ node tools/verify-export.mjs
 
 工作階段另檢查全部 246 張本機來源影像的 SHA-256，拒絕缺頁、未初錄整段或原始 OCR 直接匯出。工作用下載、OCR、完整性與匯出工具不在此公開包；公眾可重現的是本包的結構、內容一致性與檔案校驗，而非未提供模型紀錄的逐字辨讀過程。CFF 已按官方 1.2.0 schema 驗格式，格式有效不等於學術認證。
 
-目前沒有 TEI XML／ODD／TEI schema 驗證結果；JSON 不是 TEI。若日後製作，需另行編碼及驗證。
+本包另提供 TEI P5 4.12.0 XML，使用官方 `tei_all.rng` 驗證格式，並由 XML 獨立回讀比對原始 JSON、逐欄文字、疑字及來源。沒有製作專屬 ODD、逐字影像座標或完整異文 apparatus；不將格式合規宣稱為文本校勘完成。詳細映射、schema 固定網址、測試與限制見 [TEI 說明](tei/README-TEI.md)。原 JSON／TXT 的 SHA-256 保持 0.1.0 不變；內嵌 JSON 的「尚無 TEI／DOI」是原始資料當時的歷史快照，不代表新增發行包的狀態。
 
 ## 學術引用
 
@@ -88,10 +89,10 @@ node tools/verify-export.mjs
 
 本專案希望讓文化資產與個體整理勞動成為他人創意的起點；歡迎研究、改作與共同訂正，但不能把 AI 初錄說成已經獨立人工雙校。更新見 [CHANGELOG.md](CHANGELOG.md)。
 
-尚未在 Zenodo 封存、取得 DOI、投稿或通過同儕審查。取得 DOI 也不是校對認證；後續依完成度與平台規範另外處理。
+Zenodo 本包識別碼為 [10.5281/zenodo.23299020](https://doi.org/10.5281/zenodo.23299020)。**公開與登記狀態以 Zenodo 記錄為準**；TEI 製備時的預留註記是當次歷史狀態，不以保留號碼宣稱封存已完成。尚未投稿或通過同儕審查；取得 DOI 也不是校對認證。
 
 ## English summary
 
 An image-based first-pass transcription of Cheng Yi's *Yichuan Yizhuan*, Wenyuan-ge *Siku Quanshu* facsimile, volume 9, prepared by **一卦 yigua.art / poplolioi11**. Dataset 0.1.0 covers all 246 scan pages 160–405: the author's preface and four-juan text occupy 162–405, while edition front matter is separately identified. The facsimile publication year remains unverified.
 
-All pages are explicitly **unreviewed**. AI image reading, sometimes assisted by local RapidOCR, is not independent human collation. Unresolved readings and methods are retained; structural checks do not establish textual accuracy. No DOI, TEI XML or peer review is claimed. Cite the historical work, source images and this versioned dataset separately. Public-domain text remains unrestricted; CC BY 4.0 applies only where applicable to original documentation and editorial material. The standalone integrity checker is 0BSD. Corrections are welcome through Issues; citation metadata does not automatically track reuse.
+All pages are explicitly **unreviewed**. AI image reading, sometimes assisted by local RapidOCR, is not independent human collation. Unresolved readings and methods are retained; structural checks do not establish textual accuracy. Package 0.2.0 adds TEI P5 XML without changing corpus 0.1.0 JSON/TXT. See the TEI mapping and validation limits; no custom ODD or complete critical apparatus is claimed. DOI: https://doi.org/10.5281/zenodo.23299020 (publication and registration status are authoritative on Zenodo). Cite the historical work, source images and this versioned dataset separately. Public-domain text remains unrestricted; CC BY 4.0 applies only where applicable to original documentation and editorial material. Standalone tools are 0BSD. Corrections are welcome through Issues; citation metadata does not automatically track reuse.

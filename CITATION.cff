@@ -9,11 +9,12 @@ title: "《伊川易傳》文淵閣四庫全書本：全書影像初錄（未獨
 authors:
   - name: "一卦 yigua.art / poplolioi11"
     website: "https://github.com/poplolioi11"
-version: "0.1.0"
+version: "0.2.0"
+doi: "10.5281/zenodo.23299020"
 date-released: "2026-10-11"
 url: "https://github.com/poplolioi11/yigua-yichuan-fulltext"
 repository-code: "https://github.com/poplolioi11/yigua-yichuan-fulltext"
-license-url: "https://github.com/poplolioi11/yigua-yichuan-fulltext/blob/v0.1.0/LICENSE.md"
+license-url: "https://github.com/poplolioi11/yigua-yichuan-fulltext/blob/v0.2.0/LICENSE.md"
 abstract: >-
   《伊川易傳》全書影像初錄，範圍為掃描頁160至405共246頁；
   程頤序及四卷文本為162至405，前附文獻與作者正文分開標記。
@@ -22,7 +23,8 @@ abstract: >-
   AI視讀及部分頁本機OCR輔助不表示獨立人工校勘，全部頁面尚未獨立覆核，
   疑字、方法及逐頁來源保留。古籍原文屬公有領域，不新增使用限制；
   CC BY 4.0僅適用於具有著作權的本站原創說明與編排；公開驗證程式為0BSD。
-  本版無DOI、TEI XML或同儕審查，不宣稱逐字準確率。
+  0.2.0發行包增加TEI P5 XML，原0.1.0語料JSON/TXT不變；
+  DOI登記狀態以Zenodo公開紀錄為準，不宣稱同儕審查或逐字準確率。
 keywords:
   - "程頤"
   - "伊川易傳"
