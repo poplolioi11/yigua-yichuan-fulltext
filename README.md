@@ -2,6 +2,8 @@
 
 整理署名：**一卦 yigua.art / [poplolioi11](https://github.com/poplolioi11)**。發行包版本 **0.2.0**，語料初錄版 **0.1.0**；首次發行日期 **2026-10-11**。原始 JSON／TXT 固定版本見 [v0.1.0](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)，本輪只增加 TEI 編碼與封存中繼資料，未改古籍文字。
 
+正式封存：**[資料包 0.2.0 · DOI: 10.5281/zenodo.23299020](https://doi.org/10.5281/zenodo.23299020)**。學術引用請使用這個特定版本 DOI；[全版本 DOI](https://doi.org/10.5281/zenodo.23299019) 用於介紹持續維護的整個資料集，會指向最新封存版。封存包為 **0.2.0**，其中語料與 TEI 編碼各為 **0.1.0**，不能把包號誤當新一輪全文校對版號。
+
 > 掃描頁 160–405，共 246 頁已完成影像初錄；**全部尚未獨立覆核，不是學術定本**。「完整」指指定範圍逐頁初錄完成，不保證每個印字均已辨認。疑字與方法保留於逐頁紀錄。TEI schema 驗證與 DOI 不是逐字正確性或同儕審查認證。
 
 既有署名「yigua.art網站轉譯」指影像轉錄與資料整理，**不是把古文翻成現代語言**。歷史作者是程頤，資料整理者不取代原作者。
@@ -69,13 +71,21 @@ node tools/verify-export.mjs
 
 ## 學術引用
 
+若使用本次封存的 JSON、TXT 或 TEI，建議引用（請依投稿規範調整格式）：
+
+> poplolioi11（一卦 yigua.art）。（2026）。《伊川易傳》文淵閣四庫全書本：全書影像初錄（未獨立覆核）（發行包 0.2.0；語料 0.1.0）［資料集］。Zenodo。[https://doi.org/10.5281/zenodo.23299020](https://doi.org/10.5281/zenodo.23299020)
+
+`CITATION.cff` 已記載這個版本 DOI，GitHub 的「Cite this repository」可產生引用格式；不需要在每個正文檔或程式檔重複填寫。DOI 識別的是這份資料包，不是程頤原著、整個網站或私有網站程式碼。可將它放入論文參考文獻、研究計畫、作品集或成果清單，但不得把未覆核初錄寫成學術定本或同儕審查成果。
+
 請分開引用三層，不以本站取代古籍作者或館藏：
 
 1. **原著**：程頤，《伊川易傳》，卷次與引文所在位置。
 2. **底本／影像**：文淵閣四庫全書本《伊川易傳》，《景印文淵閣四庫全書》第 9 冊（臺灣商務印書館；本計畫影印出版年待核），印頁碼、DjVu 掃描頁及共享資源網址。
-3. **數位初錄**：一卦 yigua.art / poplolioi11（2026）。《伊川易傳》文淵閣四庫全書本：全書影像初錄（0.1.0；未獨立覆核）［資料集］。[GitHub 固定發行版](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)。另記實際所用掃描頁、印頁碼、檔案 SHA-256、Git 提交識別碼及取用日期。
+3. **數位初錄**：引用上列封存包 0.2.0 的版本 DOI，另記實際所用掃描頁、印頁碼、檔案 SHA-256、Git 提交識別碼及取用日期。如果實際取得的是早先 [GitHub v0.1.0 語料發行版](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)，應照實列 0.1.0 及固定發行連結，不把它誤寫成曾於本 DOI 封存的 0.2.0 發行包。
 
 引用特定字句仍應按原圖核對。對文本校正、字形替換、標點或節錄所做改動，請另行註記，不讓讀者誤以為仍是原錄文字。`main` 可持續修改，固定發行版及校驗值更適合可重現引用。
+
+`main` 上的說明文件可以持續補充；[v0.2.0 發行包](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.2.0) 與 Zenodo 所存檔案保持原樣。`PACKAGE-SHA256SUMS` 驗證的是該固定發行包，不是後續更新的 `main` 全部檔案；`exports/SHA256SUMS` 仍可驗證未變動的 JSON／TXT。
 
 ## 授權與署名
 
@@ -89,7 +99,12 @@ node tools/verify-export.mjs
 
 本專案希望讓文化資產與個體整理勞動成為他人創意的起點；歡迎研究、改作與共同訂正，但不能把 AI 初錄說成已經獨立人工雙校。更新見 [CHANGELOG.md](CHANGELOG.md)。
 
-Zenodo 本包識別碼為 [10.5281/zenodo.23299020](https://doi.org/10.5281/zenodo.23299020)。**公開與登記狀態以 Zenodo 記錄為準**；TEI 製備時的預留註記是當次歷史狀態，不以保留號碼宣稱封存已完成。尚未投稿或通過同儕審查；取得 DOI 也不是校對認證。
+Zenodo 本包於 **2026-10-11** 封存發布，版本 DOI 為 [10.5281/zenodo.23299020](https://doi.org/10.5281/zenodo.23299020)。TEI 製備時的預留註記是當次歷史狀態，不是目前尚未發布。尚未投稿或通過同儕審查；取得 DOI 也不是校對認證。
+
+- 引用或重現研究時，使用實際取得的**特定版本 DOI**；介紹整個持續維護的計畫時，可使用全版本 DOI。詳見 [Zenodo 版本引用建議](https://zenodo.org/help/versioning)。
+- 日後校對改字或更新資料檔，另建固定發行版，經驗收後建立相連的 Zenodo 新版本，更新 `CITATION.cff` 的版本、日期與版本 DOI；保留舊版及疑字紀錄，不把新文字套用到舊 DOI 下。
+- 單純補充 GitHub `main` 的 README 不另建立 Zenodo 版本、不改既有封存檔。本次補充的是引用說明，語料、XML、授權、既有發行包及 DOI 不變。
+- GitHub 引用入口的行為見 [官方引用文件](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)。CFF 與 DOI 不會自動通知每次外部引用；公開引用線索與自願回報不能當作完整使用人數。
 
 ## English summary
 
