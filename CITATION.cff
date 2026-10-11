@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+type: dataset
+message: >-
+  請引用實際使用的資料版本、檔案SHA-256及掃描頁。
+  這是全書影像初錄，全部尚未獨立覆核，不是學術定本。
+  歷史作品、影印底本／影像及本站數位轉錄應分開引用；
+  程頤是歷史作者，以下署名是資料整理者，不取代原作者。
+title: "《伊川易傳》文淵閣四庫全書本：全書影像初錄（未獨立覆核）"
+authors:
+  - name: "一卦 yigua.art / poplolioi11"
+    website: "https://github.com/poplolioi11"
+version: "0.1.0"
+date-released: "2026-10-11"
+url: "https://github.com/poplolioi11/yigua-yichuan-fulltext"
+repository-code: "https://github.com/poplolioi11/yigua-yichuan-fulltext"
+license-url: "https://github.com/poplolioi11/yigua-yichuan-fulltext/blob/v0.1.0/LICENSE.md"
+abstract: >-
+  《伊川易傳》全書影像初錄，範圍為掃描頁160至405共246頁；
+  程頤序及四卷文本為162至405，前附文獻與作者正文分開標記。
+  原作者宋程頤；來源為臺灣商務印書館所收《景印文淵閣四庫全書》第9冊
+  文淵閣本的維基共享資源掃描影像，影印出版年未核實。
+  AI視讀及部分頁本機OCR輔助不表示獨立人工校勘，全部頁面尚未獨立覆核，
+  疑字、方法及逐頁來源保留。古籍原文屬公有領域，不新增使用限制；
+  CC BY 4.0僅適用於具有著作權的本站原創說明與編排；公開驗證程式為0BSD。
+  本版無DOI、TEI XML或同儕審查，不宣稱逐字準確率。
+keywords:
+  - "程頤"
+  - "伊川易傳"
+  - "文淵閣四庫全書"
+  - "Yichuan Yizhuan"
+  - "I Ching"
+  - "image-based transcription"
+  - "unreviewed first-pass draft"
+  - "digital humanities"
+  - "public-domain text"
