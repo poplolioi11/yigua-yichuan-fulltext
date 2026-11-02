@@ -1,5 +1,11 @@
 # 《伊川易傳》文淵閣四庫全書本：全書影像初錄
 
+## 摘要 / Abstract
+
+本資料集以文淵閣《四庫全書》影印本第9冊影像為底本，初錄程頤《伊川易傳》所涉246幅掃描（160–405頁），將版本卷首資料與作者序、四卷正文分層保存。AI讀圖並於部分頁面輔以本機RapidOCR，產出保留欄序、圖形、副文本、來源定位與90筆疑字紀錄的JSON、TXT及TEI P5 XML，供檢索與後續校訂。全部頁面尚未獨立覆核，影印出版年未核；本版新增XML而未改動初版JSON、TXT，不構成人工校勘定本或已量測準確率的文本。
+
+This dataset presents a first-pass transcription of Cheng Yi’s 《伊川易傳》 from volume 9 of the Wenyuan-ge Siku Quanshu facsimile, covering 246 scan pages numbered 160–405. Edition front matter is distinguished from the author’s preface and four-juan text. AI image reading, assisted on some pages by local RapidOCR, produced JSON, TXT and TEI P5 XML retaining column order, figures, paratext, source locations and 90 uncertainty records for retrieval and later correction. All pages remain independently unreviewed, and the facsimile publication year is unverified. This version adds XML without altering the initial JSON/TXT corpus; it is not a human-collated definitive edition or a text with measured character accuracy.
+
 整理署名：**一卦 yigua.art / [poplolioi11](https://github.com/poplolioi11)**。發行包版本 **0.2.0**，語料初錄版 **0.1.0**；首次發行日期 **2026-10-11**。原始 JSON／TXT 固定版本見 [v0.1.0](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)，本輪只增加 TEI 編碼與封存中繼資料，未改古籍文字。
 
 正式封存：**[資料包 0.2.0 · DOI: 10.5281/zenodo.23299020](https://doi.org/10.5281/zenodo.23299020)**。學術引用請使用這個特定版本 DOI；[全版本 DOI](https://doi.org/10.5281/zenodo.23299019) 用於介紹持續維護的整個資料集，會指向最新封存版。封存包為 **0.2.0**，其中語料與 TEI 編碼各為 **0.1.0**，不能把包號誤當新一輪全文校對版號。
