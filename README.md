@@ -1,10 +1,14 @@
-# 《伊川易傳》文淵閣四庫全書本：全書影像初錄
+# 伊川易傳（文淵閣四庫全書本；第9冊）全書初錄資料 / Yichuan Yizhuan: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料集以文淵閣《四庫全書》影印本第9冊影像為底本，初錄程頤《伊川易傳》所涉246幅掃描（160–405頁），將版本卷首資料與作者序、四卷正文分層保存。AI讀圖並於部分頁面輔以本機RapidOCR，產出保留欄序、圖形、副文本、來源定位與90筆疑字紀錄的JSON、TXT及TEI P5 XML，供檢索與後續校訂。全部頁面尚未獨立覆核，影印出版年未核；本版新增XML而未改動初版JSON、TXT，不構成人工校勘定本或已量測準確率的文本。
+《伊川易傳》是宋程頤逐卦、逐爻解說《周易》的四卷注釋，討論經文、卦象及人事義理，可供宋代易學與經典詮釋研究。本資料以臺灣商務印書館《景印文淵閣四庫全書》第9冊影像為底本，初錄掃描160–405頁共246幅，將卷首題詩、館臣提要與程頤序及正文分層保存，提供含來源定位、欄序與疑字的JSON、TXT及TEI P5 XML。全部頁面尚未獨立覆核，仍有未解讀處，影印本出版年亦未核實。
 
-This dataset presents a first-pass transcription of Cheng Yi’s 《伊川易傳》 from volume 9 of the Wenyuan-ge Siku Quanshu facsimile, covering 246 scan pages numbered 160–405. Edition front matter is distinguished from the author’s preface and four-juan text. AI image reading, assisted on some pages by local RapidOCR, produced JSON, TXT and TEI P5 XML retaining column order, figures, paratext, source locations and 90 uncertainty records for retrieval and later correction. All pages remain independently unreviewed, and the facsimile publication year is unverified. This version adds XML without altering the initial JSON/TXT corpus; it is not a human-collated definitive edition or a text with measured character accuracy.
+Yichuan Yizhuan, a four-juan Song commentary by Cheng Yi, explains the Zhouyi’s hexagrams and line statements and supports research on Song Yijing scholarship and classical interpretation. This dataset uses images of the Taiwan Commercial Press facsimile of the Wenyuan-ge Siku Quanshu, volume 9, covering 246 scan pages numbered 160–405. JSON, TXT and TEI P5 XML retain source locators, column order and uncertainties, distinguishing edition front matter from Cheng Yi’s preface and text. All pages remain independently unreviewed, unresolved readings persist, and the facsimile publication year is unverified.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [Wikimedia Commons 影像來源頁 / Image source page](https://commons.wikimedia.org/wiki/File:%E6%96%87%E6%B7%B5%E9%96%A3%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8_0009%E5%86%8A.djvu)
 
 整理署名：**一卦 yigua.art / [poplolioi11](https://github.com/poplolioi11)**。發行包版本 **0.2.0**，語料初錄版 **0.1.0**；首次發行日期 **2026-10-11**。原始 JSON／TXT 固定版本見 [v0.1.0](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)，本輪只增加 TEI 編碼與封存中繼資料，未改古籍文字。
 
