@@ -1,4 +1,4 @@
-# 伊川易傳（文淵閣四庫全書本；第9冊）全書初錄資料 / Yichuan Yizhuan: Transcription dataset
+# 伊川易傳(文淵閣四庫全書本;第9冊)全書初錄資料 / Yichuan Yizhuan [Yichuan commentary on the Changes]: Transcription dataset
 
 ## 摘要 / Abstract
 
@@ -9,6 +9,14 @@ Yichuan Yizhuan, a four-juan Song commentary by Cheng Yi, explains the Zhouyi’
 原件與書目入口 / Source witness and catalogue:
 
 - [Wikimedia Commons 影像來源頁 / Image source page](https://commons.wikimedia.org/wiki/File:%E6%96%87%E6%B7%B5%E9%96%A3%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8_0009%E5%86%8A.djvu)
+
+### 題名與語言說明 / Title and language notes
+
+方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+
+Yichuan Yizhuan 為既有編者轉寫，未核得此底本的館方羅馬字題名。
+
+語言層次 / Language layers: 原文保留既有 lzh；本輪未作全書重新語體判定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。
 
 整理署名：**一卦 yigua.art / [poplolioi11](https://github.com/poplolioi11)**。發行包版本 **0.2.0**，語料初錄版 **0.1.0**；首次發行日期 **2026-10-11**。原始 JSON／TXT 固定版本見 [v0.1.0](https://github.com/poplolioi11/yigua-yichuan-fulltext/releases/tag/v0.1.0)，本輪只增加 TEI 編碼與封存中繼資料，未改古籍文字。
 
