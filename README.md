@@ -2,9 +2,9 @@
 
 ## 摘要 / Abstract
 
-《伊川易傳》是宋程頤逐卦、逐爻解說《周易》的四卷注釋，討論經文、卦象及人事義理，可供宋代易學與經典詮釋研究。本資料以臺灣商務印書館《景印文淵閣四庫全書》第9冊影像為底本，初錄掃描160–405頁共246幅，將卷首題詩、館臣提要與程頤序及正文分層保存，提供含來源定位、欄序與疑字的JSON、TXT及TEI P5 XML。全部頁面尚未獨立覆核，仍有未解讀處，影印本出版年亦未核實。
+《伊川易傳》是宋程頤逐卦、逐爻解說《周易》的四卷注釋,討論經文、卦象及人事義理,可供宋代易學與經典詮釋研究。本資料以臺灣商務印書館《景印文淵閣四庫全書》第9冊影像為底本,以AI輔助初錄掃描160–405頁共246幅,將卷首題詩、館臣提要與程頤序及正文分層保存,提供含來源定位、欄序與疑字的JSON、TXT及TEI P5 XML。全部頁面尚未獨立覆核,仍有未解讀處,影印本出版年亦未核實。
 
-Yichuan Yizhuan, a four-juan Song commentary by Cheng Yi, explains the Zhouyi’s hexagrams and line statements and supports research on Song Yijing scholarship and classical interpretation. This dataset uses images of the Taiwan Commercial Press facsimile of the Wenyuan-ge Siku Quanshu, volume 9, covering 246 scan pages numbered 160–405. JSON, TXT and TEI P5 XML retain source locators, column order and uncertainties, distinguishing edition front matter from Cheng Yi’s preface and text. All pages remain independently unreviewed, unresolved readings persist, and the facsimile publication year is unverified.
+Yichuan Yizhuan, a four-juan Song commentary by Cheng Yi, explains the Zhouyi's hexagrams and line statements and supports research on Song Yijing scholarship and classical interpretation. This AI-assisted initial transcription uses images of the Taiwan Commercial Press facsimile of the Wenyuan-ge Siku Quanshu, volume 9, covering 246 scan pages numbered 160–405. JSON, TXT and TEI P5 XML retain source locators, column order and uncertainties, distinguishing edition front matter from Cheng Yi's preface and text. All pages remain independently unreviewed, unresolved readings persist, and the facsimile publication year is unverified.
 
 原件與書目入口 / Source witness and catalogue:
 

@@ -5,10 +5,12 @@ message: >-
   這是全書影像初錄，全部尚未獨立覆核，不是學術定本。
   歷史作品、影印底本／影像及本站數位轉錄應分開引用；
   程頤是歷史作者，以下署名是資料整理者，不取代原作者。
-title: "《伊川易傳》文淵閣四庫全書本：全書影像初錄（未獨立覆核）"
+title: "伊川易傳(文淵閣四庫全書本;第9冊)全書初錄資料 / Yichuan Yizhuan [Yichuan commentary on the Changes]: Transcription dataset"
 authors:
-  - name: "一卦 yigua.art / poplolioi11"
-    website: "https://github.com/poplolioi11"
+  - family-names: Chu
+    given-names: Chen-Yu
+    orcid: https://orcid.org/0009-0003-9738-6914
+    website: https://github.com/poplolioi11
 version: "0.2.0"
 doi: "10.5281/zenodo.23299020"
 date-released: "2026-10-11"
